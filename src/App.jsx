@@ -58,7 +58,7 @@ function App() {
       {activeTab === "product" && <Products productsPromise={productsPromise} carts={carts} setCarts={setCarts}></Products>}
 
 
-      {activeTab === "cart" && <Cart carts={carts}></Cart>}
+      {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
 
       <Steps></Steps>
       <Pricing></Pricing>
