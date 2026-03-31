@@ -23,9 +23,10 @@ function App() {
 
 
 
+
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar carts={carts}></Navbar>
       <Banner></Banner>
       <Stats></Stats>
 
@@ -50,7 +51,7 @@ function App() {
           type="radio"
           name="my_tabs_1"
           className="tab w-40 rounded-full "
-          aria-label="Cart"
+          aria-label={`Cart(${carts.length})`}
           onClick={() => setActiveTab("cart")}
         />
       </div>

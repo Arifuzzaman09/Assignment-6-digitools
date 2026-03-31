@@ -8,7 +8,10 @@ const Banner = () => {
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={BannerImg} alt="" />
                 <div>
-                    <p className=' bg-blue-400 bg-linear-to-l from-[#4F39F6] to-[#5b48e4d2] w-72 rounded-full  text-center bg-clip-text text-transparent '> New: AI-Powered Tools Available</p>
+                    <div className='flex items-center bg-blue-200 w-80 rounded-full px-1'>
+                        <div className='w-3 h-3 bg-blue-600 rounded-full'></div>
+                        <p className=' bg-blue-400 bg-linear-to-l from-[#4F39F6] to-[#5b48e4d2] w-72 rounded-full  text-center bg-clip-text text-transparent '> New: AI-Powered Tools Available</p>
+                    </div>
                     <h1 className="text-5xl font-bold">Supercharge Your Digital Workflow</h1>
                     <p className="py-6">
                         Access premium AI tools, design assets, templates, and productivity

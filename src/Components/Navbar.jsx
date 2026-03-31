@@ -1,9 +1,9 @@
 import React from 'react';
 import { FiShoppingCart } from 'react-icons/fi';
 
-const Navbar = () => {
+const Navbar = ({ carts }) => {
     return (
-        <div className="navbar bg-base-100 shadow-sm w-10/12 mx-auto">
+        <div className="navbar bg-base-100 shadow-sm w-10/12 mx-auto sticky top-0 z-50 ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -19,7 +19,7 @@ const Navbar = () => {
                         <li><a href="">FAQ</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl font-bold bg-linear-to-l from-[#4F39F6] to-[#5b48e4d2] bg-clip-text text-transparent">DigiTools</a>
+                <a className="btn btn-ghost text-2xl font-bold bg-linear-to-l from-[#4F39F6] to-[#5b48e4d2] bg-clip-text text-transparent">DigiTools</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -31,7 +31,8 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            <div className="navbar-end space-x-4">
+            <div className="navbar-end space-x-4 relative">
+                <div className='w-4 h-4 bg-red-600 rounded-full text-center absolute right-40 bottom-5 text-white text-sm'>{carts.length}</div>
                 <FiShoppingCart />
                 <a href="">Login</a>
                 <a className="btn bg-linear-to-l from-[#4F39F6] to-[#5b48e4d2] rounded-full text-white">Get Started</a>
