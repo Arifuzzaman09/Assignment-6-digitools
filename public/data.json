@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Advanced AI writing tool to generate articles, blogs, and marketing content quickly.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "AI blog generator",
+      "SEO optimization",
+      "Multiple writing tones",
+      "Export to DOCX & PDF"
+    ],
+    "img": "https://i.ibb.co.com/hx8TD0wy/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "A collection of professional design templates for social media and marketing.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "500+ design templates",
+      "Editable PSD & Figma files",
+      "Social media formats",
+      "Commercial license"
+    ],
+    "img": "https://i.ibb.co.com/pv7Bt57J/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes using ATS-friendly templates.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "100+ resume templates",
+      "ATS optimization",
+      "Export to PDF & DOCX",
+      "Cover letter builder"
+    ],
+    "img": "https://i.ibb.co.com/HDccKLGM/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Pro Automation Toolkit",
+    "description": "Automate repetitive tasks with powerful workflow tools.",
+    "price": 30,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Workflow automation",
+      "Task scheduling",
+      "Integration with apps",
+      "Real-time monitoring"
+    ],
+    "img": "https://i.ibb.co.com/N29ZJxx8/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Kit Resume Builder",
+    "description": "Simple resume builder kit with modern layouts.",
+    "price": 8,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "40+ resume templates",
+      "Drag & drop editor",
+      "PDF export",
+      "Easy customization"
+    ],
+     "img": "https://i.ibb.co.com/HDccKLGM/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Create engaging social media content using ready-made templates.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Instagram & Facebook templates",
+      "Content calendar",
+      "Caption generator",
+      "Export to PNG & JPG"
+    ],
+    "img": "https://i.ibb.co.com/99V72dQ3/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "Marketing Growth Toolkit",
+    "description": "Tools and templates to help grow your online business.",
+    "price": 35,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Email marketing templates",
+      "Landing page templates",
+      "Marketing analytics",
+      "Lead generation tools"
+    ],
+    "img": "https://i.ibb.co.com/hx8TD0wy/writing-2327400-1.png"
+  },
+  {
+    "id": 8,
+    "name": "Portfolio Website Builder",
+    "description": "Build a professional portfolio website easily without coding.",
+    "price": 20,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "50+ portfolio layouts",
+      "Custom domain support",
+      "SEO optimization",
+      "Mobile responsive designs"
+    ],
+    "img": "https://i.ibb.co.com/pv7Bt57J/design-tool.png"
+  },
+  {
+    "id": 9,
+    "name": "AI Productivity Suite",
+    "description": "All-in-one productivity tools powered by artificial intelligence.",
+    "price": 40,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "AI task manager",
+      "Smart reminders",
+      "Document generator",
+      "Team collaboration tools"
+    ],
+    "img": "https://i.ibb.co.com/99V72dQ3/social-media.png"
+  }
+]
