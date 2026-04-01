@@ -1,16 +1,18 @@
-# React + Vite
+#Name of your Project
+Name:Assignment-6-digitools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Description
+description: Digitools হলো একটি ডিজিটাল টুলকিট, যা মূলত ডিজিটাল ক্রিয়েটর, মার্কেটার বা ফ্রিল্যান্সারদের জন্য তৈরি।
 
-Currently, two official plugins are available:
+#Technology
+React.js
+DaisyUI
+JavaScript (ES6+)
+Tailwind CSS
+React-Toastify 
+JSON data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#Features 
+কন্টেন্ট ক্রিয়েশন টুলস – সোশ্যাল মিডিয়া পোস্ট আর ভিডিও ও গ্রাফিক্স সহজে তৈরি করা
+অটোমেশন ফিচার – পুনরাবৃত্তিমূলক কাজে সহজে সম্পন্ন করা
+প্রোডাক্টিভিটি ও ট্র্যাকিং – টাস্ক ম্যানেজ করা এবং কাজের পারফরম্যান্স পর্যবেক্ষণ
