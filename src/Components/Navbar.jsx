@@ -32,8 +32,11 @@ const Navbar = ({ carts }) => {
             </div>
 
             <div className="navbar-end space-x-4 relative">
-                <div className='w-4 h-4 bg-red-600 rounded-full text-center absolute right-40 bottom-5 text-white text-sm'>{carts.length}</div>
-                <FiShoppingCart />
+                <div className="indicator">
+                    <span className="indicator-item badge badge-secondary">{carts.length}</span>
+                    <div className=" grid h-7 w-7 place-items-center"><FiShoppingCart /></div>
+                </div>
+                
                 <a href="">Login</a>
                 <a className="btn bg-linear-to-l from-[#4F39F6] to-[#5b48e4d2] rounded-full text-white">Get Started</a>
             </div>

@@ -20,9 +20,7 @@ const productsPromise = getProducts()
 function App() {
   const [activeTab, setActiveTab] = useState("product")
   const [carts, setCarts] = useState([])
-
-
-
+  
 
   return (
     <>
@@ -38,7 +36,7 @@ function App() {
 
 
       <div className="tabs tabs-box justify-center bg-transparent mt-10">
-        <input
+        <input 
           type="radio"
           name="my_tabs_1"
           className="tab w-40 rounded-full "
@@ -46,14 +44,16 @@ function App() {
           onClick={() => setActiveTab("product")}
           defaultChecked
         />
+        
 
-        <input
+        <input 
           type="radio"
           name="my_tabs_1"
-          className="tab w-40 rounded-full "
+          className="tab w-40 rounded-full  "
           aria-label={`Cart(${carts.length})`}
           onClick={() => setActiveTab("cart")}
         />
+       
       </div>
 
       {activeTab === "product" && <Products productsPromise={productsPromise} carts={carts} setCarts={setCarts}></Products>}
