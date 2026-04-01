@@ -1,4 +1,4 @@
-#Name of your Project
+##Name of your Project
 Name:Assignment-6-digitools
 
 #Description
